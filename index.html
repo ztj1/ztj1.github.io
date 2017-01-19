@@ -6,7 +6,7 @@
   </head>
  <body bgcolor = "#134faf">
 
-   <h1>primitave savage jigalongs</h1>
+   <h1>jigalongs</h1>
    <p>MOlly was the king of the jigalongs she was the head jigalong</p>
 
    <body>
@@ -14,4 +14,64 @@
      <img src="woah.jpg" </body>
 
  </body>
-</html>
+ <head>
+   <script>
+
+   var clicks = 0;
+
+     function myFunction() {
+       clicks++;
+       document.getElementById("changeMessage").innerHTML = "you hit the plug "+clicks+" times";
+       console.log(clicks);
+     }
+
+   </script>
+ </head>
+
+ <body>
+
+   <h1>hit the plugs line</h1>
+
+   <p id="changeMessage">Get the hook up</p>
+
+   <button type="button" onclick="myFunction()">contact da plug</button>
+
+
+   </body>
+   <head>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   <script>
+     $(document).ready(function() {
+       $("#flip").mouseover(function() {
+         $("#panel").slideDown("slow");
+       });
+       $("#flip").mouseout(function() {
+         $("#panel").slideUp("fast");
+       });
+     });
+   </script>
+
+   <style>
+     #panel,
+     #flip {
+       padding: 5px;
+       text-align: center;
+       background-color: #48f442;
+       border: solid 1px #48f442;
+     }
+
+     #panel {
+       padding: 200px;
+       display: none;
+     }
+   </style>
+ </head>
+
+ <body>
+
+   <div id="flip">What the plug has</div>
+   <div id="panel">Jigalong</div>
+
+ </body>
+
+ </html>
