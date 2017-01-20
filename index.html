@@ -73,6 +73,38 @@
    <div id="panel">My number is +1(415)-525-1661</div>
    <img src="thumb_user_3670097.jpg" </body>
    <body>
+     <head>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+     <script>
+       $(document).ready(function() {
+         $("#flip").mouseover(function() {
+           $("#panel").slideDown("slow");
+         });
+         $("#flip").mouseout(function() {
+           $("#panel").slideUp("fast");
+         });
+       });
+     </script>
 
+     <style>
+       #panel,
+       #flip {
+         padding: 5px;
+         text-align: center;
+         background-color: #48f442;
+         border: solid 1px #48f442;
+       }
+
+       #panel {
+         padding: 200px;
+         display: none;
+       }
+     </style>
+   </head>
+
+   <body>
+
+     <div id="flip">The plugs offers</div>
+     <div id="panel">The plug has many friends in his life both male and female. MAny of his friends are named lillie and zelda, but the plug also offers other friends like allie westley. Feel free to contact the plug about what you may need in your life he is great at giving friendly advice. He also has a lot of pens he can hand out if you may need one in your life. The plug is a great man. Contact him at +1(415)-525-1661</div>
 
  </html>
